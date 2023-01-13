@@ -1,0 +1,13 @@
+##color
+1-background of Buttons >> #5e5e4a
+2-color text of Buttons >>>#fff
+///
+--- What The Material Is Used In This App ?
+    1-Css
+    2-React
+    3-React-router
+    4-React-icons
+    5-Authentication with Firebase
+    6-Framer-motion
+    7-Swiper
+    8-Javascript_api

@@ -1,0 +1,99 @@
+.blogs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.blogs .blog-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    margin: 3rem 0;
+    box-shadow: 3px 3px 10px #EEEE;
+}
+.blogs .blog-box .image-contener{
+    width: 100%;
+    height: 800px;
+}
+.blogs .blog-box .image-contener img{
+    width: 100%;
+    height: 100%;
+}
+.text-header{
+    padding: 1rem;
+}
+.text-header .profils-slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profils-slider .profil-info{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.profils-slider .profil-info .icon-profil{
+    font-size: 30px;
+    margin-right: 1rem;
+}
+.profils-slider .profil-info .date-name{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    color: #666;
+    line-height: 1.3;
+}
+.profils-slider .icone-more{
+    cursor: pointer;
+}
+hr{
+    border: 1px solid #DDD;
+    padding: 0 2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+.text-header .text-info{
+    margin: 1rem 0;
+}
+.text-header .text-info p{
+    margin-top: 1rem;
+    color: #555;
+    font-weight: 400;
+}
+
+.like-comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555;
+    font-weight: 300;
+    font-size: 15px;
+}
+.like-comment .conts-comment-and-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.likes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.like-cont{
+    margin-right: .5rem;
+    font-size: 15px;
+}
+.like-comment .conts-comment-and-view > div{
+    margin: 0 1rem 0 0 ;
+
+}
+.love{
+    /* color: #000 !important;
+     */
+    cursor: pointer;
+    font-size: 15px;
+}

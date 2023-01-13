@@ -1,0 +1,20 @@
+/* ==============================
+        Start FAST CONTACT
+    ===============================
+*/
+
+.fast-contact{
+    position:fixed;
+    top: 50%;
+    left: 3%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    z-index: 1000000;
+}
+.icon-contact{
+    margin: 1rem 0;
+    cursor: pointer;
+}
